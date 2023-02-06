@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/hatimage" />
+        tools:srcCompat="@drawable/hatimage" />
 
     <TextView
         android:id="@+id/categoryName"
@@ -30,7 +30,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/catageryImage"
         app:layout_constraintEnd_toEndOf="@+id/catageryImage"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="@+id/catageryImage"
         app:layout_constraintTop_toTopOf="@+id/catageryImage"
-        app:layout_constraintVertical_bias="0.601" />
+        app:layout_constraintVertical_bias="0.55" />
 </androidx.constraintlayout.widget.ConstraintLayout>
